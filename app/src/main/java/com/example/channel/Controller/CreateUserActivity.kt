@@ -1,9 +1,11 @@
-package com.example.channel
+package com.example.channel.Controller
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.channel.R
+import com.example.channel.Services.AuthService
 import kotlinx.android.synthetic.main.activity_create_user.*
 import java.util.*
 
@@ -52,6 +54,10 @@ class CreateUserActivity : AppCompatActivity() {
     }
 
     fun createUserClicked(view: View){
+        AuthService.registerUser(this, "a@a.com", "1234"){complete ->
+            if(complete){
 
+            }
+        }
     }
 }

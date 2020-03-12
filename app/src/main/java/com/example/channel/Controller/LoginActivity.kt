@@ -1,9 +1,10 @@
-package com.example.channel
+package com.example.channel.Controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.channel.R
 
 class LoginActivity : AppCompatActivity() {
 
