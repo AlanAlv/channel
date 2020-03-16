@@ -10,7 +10,7 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.example.channel.R
 import com.example.channel.Services.AuthService
 import com.example.channel.Utilities.BROADCAST_USER_DATA_CHANGE
-import com.example.channel.Utilities.UserDataService
+import com.example.channel.Services.UserDataService
 import kotlinx.android.synthetic.main.activity_create_user.*
 import java.util.*
 

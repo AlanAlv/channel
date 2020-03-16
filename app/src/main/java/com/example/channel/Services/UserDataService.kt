@@ -1,7 +1,6 @@
-package com.example.channel.Utilities
+package com.example.channel.Services
 
 import android.graphics.Color
-import com.example.channel.Services.AuthService
 import java.util.*
 
 object UserDataService {
